@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mccauley.database.AboutAct">
+
+    <Button
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnGoBack"
+        android:background="@drawable/returnico"
+        android:layout_x="-3dp"
+        android:layout_y="-3dp"
+        android:layout_width="30dp"
+        android:layout_height="36dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="137dp"
+        app:srcCompat="@drawable/logomaintwo"
+        android:layout_x="0dp"
+        android:layout_y="51dp"
+        android:id="@+id/imageView3" />
+
+    <TextView
+        android:text="Studdy Buddy is an application that was created as part of a project for my Level 3 BTEC Diploma at South Devon College. This application aims to assist the user in creating reminders to better improve their work efficiency by alerting them of things such as deadlines/due dates, general things they need to do etc. This project is the result of around 6 months work creating the product that you are now using - there may be some bugs experienced every now and then but please understand, I am far from being an experienced Java developer. This is my first time fully experiencing Java and I have tried to make an application that is of the greatest quality that I am able to produce with little knowledge of the language."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="239dp"
+        android:id="@+id/textView4" />
+</AbsoluteLayout>
